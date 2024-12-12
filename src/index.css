@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  font-family: "Merriweather", serif;
+  background-color: #f8f9fa;
+}
+
+.badge-easy {
+  background-color: #28a745;
+}
+
+.badge-medium {
+  background-color: #ffc107;
+}
+
+.badge-hard {
+  background-color: #dc3545;
+}
+
+.badge-secondary {
+  background-color: gray;
+}
+
+.text-ellipsis {
+  display: inline-block;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: red;
+}
+
+.filter-container {
+  position: sticky;
+  top: 50px;
+  z-index: 10;
+}
